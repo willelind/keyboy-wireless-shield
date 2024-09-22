@@ -3,7 +3,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 //#include <locale/keys_sv.h>
-#include "elpekenin/behaviors.dtsi"
+//#include "elpekenin/behaviors.dtsi"
 
 / {
     keymap {
@@ -17,8 +17,8 @@
         };
         emu_layer {
             bindings = <
-				&gpio 0 GPIO_TOG &tog 1
-				&gpio 1 GPIO_TOG &gpio 2 GPIO_ON
+				&kp F &tog 1
+				&kp G &kp H
             >;
         };
     };
