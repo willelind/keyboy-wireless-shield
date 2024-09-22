@@ -3,6 +3,19 @@
         zmk,kscan = &kscan0;
     };
 
+    gpios {
+        compatible = "gpio-leds";
+        green: green {
+            gpios = <&pro_micro 5 GPIO_ACTIVE_LOW>;
+        };
+        blue: blue {
+            gpios = <&pro_micro 4 GPIO_ACTIVE_LOW>;
+        };
+        red: red {
+            gpios = <&pro_micro 6 GPIO_ACTIVE_LOW>;
+        }
+    };
+
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-direct";
 
