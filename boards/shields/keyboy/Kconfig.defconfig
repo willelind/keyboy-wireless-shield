@@ -1,0 +1,6 @@
+if SHIELD_KEYBOY
+
+config ZMK_KEYBOARD_NAME
+	default "Keyboy"
+
+endif

@@ -1,0 +1,8 @@
+file_format: "1"
+id: keyboy
+name: KEYBOY
+type: shield
+url: https://github.com/willelind/keyboy-wireless-shield
+requires: [nice_nano_v2]
+features:
+  - keys
